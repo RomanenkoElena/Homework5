@@ -11,7 +11,6 @@ Console.WriteLine($"Кол-во чётных чисел - {count}");
 
 void FillArray(int[] num) // метод для заполнения массива
 {
-    // int length = numbers.Length;
     int index = 0;
     while (index < num.Length)
     {
@@ -22,7 +21,6 @@ void FillArray(int[] num) // метод для заполнения массив
 
 void PrintArray(int[] num) // метод для вывода массива на экран
 {
-    // int length = num.Length;
     int pos = 0;
     while (pos < num.Length)
     {
